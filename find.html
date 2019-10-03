@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/c6a5f2abce.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>find | Kakao Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+
+      <i class="far fa-clock"></i>
+      <i class="fas fa-volume-mute"></i>
+      <i class="fas fa-wifi"></i>
+      <span class="statusbar__battery-level">100%</span>
+      <i class="fas fa-battery-full"></i>
+      <div class="status-bar__column"></div>
+      <!--span에는 text
+          div에는 text를 제외한 것-->
+    </div>
+
+    <header class="header">
+      <div class="header__column">
+        <h1 class="header__title">Find</h1>
+      </div>
+
+      <div class="header__column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="find">
+      <header class="find__header">
+        <ul class="firs__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              QR 코드
+            </span>
+          </li>
+
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by Contacts
+            </span>
+          </li>
+
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by ID
+            </span>
+          </li>
+
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Invite
+            </span>
+          </li>
+        </ul>
+      </header>
+
+      <ul class="find__recommended">
+        <h5>Recommended Friends</h5>
+        <li class="find__friend friend">
+          <div class="friend__column">
+            <img src="images/psj.PNG" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="frined__name">강민국</span>
+            </div>
+            <div class="friend__column">
+              <div class="friend__add-button">
+                <i class="fas fa-user-plus fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__liat-item">
+          <a href="/friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__liat-item">
+          <a href="/index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__liat-item">
+          <a href="/find.html" class="nav__list-link"></a>
+          <i class="fas fa-search"></i>
+        </li>
+        <li class="nav__liat-item">
+          <a href="/more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/c6a5f2abce.js"
       crossorigin="anonymous"
     ></script>
-    <title>more | Kakao Clone</title>
+    <title>friends | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,21 +28,62 @@
 
     <header class="header">
       <div class="header__column">
-        <h1 class="header__title">Chats</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
 
       <div class="header__column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header__icon">
-          <i class="far fa-comments"></i>
-        </span>
+
         <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
+
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <div class="frined__column">
+            <img src="images/psj.PNG" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="frined__name">박상진</span>
+              <span class="friend__status">오호라</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus Friend</h5>
+        <div class="friends__friend friend">
+          <img src="images/psj.PNG" class="g-avatar friend__avatar" />
+          <div class="friend__content">
+            <span class="frined__name">Plus Friend</span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 25</h5>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/psj.PNG" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="frined__name">강민국</span>
+              <span class="friend__status">너가 믿는데로</span>
+            </div>
+            <div class="friend__column">
+              <div class="friend__now-listening">
+                <span>Queen (Love of my life)</span>
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
