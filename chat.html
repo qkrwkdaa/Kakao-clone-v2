@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/c6a5f2abce.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>friends | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+
+      <i class="far fa-clock"></i>
+      <i class="fas fa-volume-mute"></i>
+      <i class="fas fa-wifi"></i>
+      <span class="statusbar__battery-level">100%</span>
+      <i class="fas fa-battery-full"></i>
+      <div class="status-bar__column"></div>
+      <!--span에는 text
+          div에는 text를 제외한 것-->
+    </div>
+
+    <header class="header">
+      <div class="header__back-btn">
+        <a href="index.html"> <i class="fas fa-arrow-left fa-2x"></i></a>
+      </div>
+      <div class="header__column">
+        <h1 class="header__title">박상민</h1>
+      </div>
+
+      <div class="header__column">
+        <span class="header__icon">
+          <i class="fas fa-search fa-2x"></i>
+        </span>
+
+        <span class="header__icon">
+          <i class="fas fa-bars fa-2x"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat__message">
+        <span class="chat__timestamp">Friday, January 10,2019</span>
+        <li class="incoming-message message">
+          <img src="images/psm.PNG" class="g-avatar message-avatar" />
+          <div class="message__content">
+            <sapn class="message_author">박상민</sapn>
+            <span class="message__bubble">Hello?</span>
+          </div>
+          <span class="message__timestamp">15:19</span>
+        </li>
+        <li class="incoming-message message">
+          <span class="message__timestamp">15:22</span>
+          <div class="message__content">
+            <span class="message__bubble">Waht are u want?</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send Message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icnon">
+          <i class="far fa-smile"></i>
+        </span>
+        <span class="chat__write-icnon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
